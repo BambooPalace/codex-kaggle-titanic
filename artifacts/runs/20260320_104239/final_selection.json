@@ -1,0 +1,28 @@
+{
+  "artifact_model_path": "/Users/claire_gong/ocbc/codex/kaggle/artifacts/runs/20260320_104239/final_model.joblib",
+  "artifact_submission_path": "/Users/claire_gong/ocbc/codex/kaggle/artifacts/runs/20260320_104239/predictions.csv",
+  "cross_validation": {
+    "fold_scores": [
+      0.9,
+      0.797752808988764,
+      0.8651685393258427,
+      0.8651685393258427,
+      0.797752808988764,
+      0.8426966292134831,
+      0.8651685393258427,
+      0.8314606741573034,
+      0.8426966292134831,
+      0.8314606741573034
+    ],
+    "max_accuracy": 0.9,
+    "mean_accuracy": 0.8439325842696629,
+    "min_accuracy": 0.797752808988764,
+    "model_name": "soft_vote_core",
+    "notes": "Soft vote of logistic, extra trees, and gradient boosting.",
+    "std_accuracy": 0.03012598216094324
+  },
+  "holdout_accuracy_last_fold": 0.8314606741573034,
+  "selected_model": "soft_vote_core",
+  "selection_note": "Soft vote of logistic, extra trees, and gradient boosting.",
+  "submission_path": "/Users/claire_gong/ocbc/codex/kaggle/predictions.csv"
+}
